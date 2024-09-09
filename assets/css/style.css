@@ -279,23 +279,29 @@ font-size: 1.5rem
 
     /*#region-5TH CARD */
 
-
+.flex{
+    display: flex;
+    
+}
  .sect_5{
     background-color: lightgrey;
-    display: flex;
     padding: 2rem;
 }  
     
  .fl_5_sq{
 
     align-self: center;
-    background-color:green;
+    /* background-color:green; */
     width: 70%;
     margin: auto;
-    border: 1px dashed black; /* DEBUG-FEATURE!!! */
-    height: 40rem;
+    /* border: 1px dashed black;  */ /* DEBUG-FEATURE!!! */
  
  }
+.main_title{
+    justify-content: center;
+}
+
+
 /*#endregion-5TH CARD */
 
  /*#endregion-MAIN*/
