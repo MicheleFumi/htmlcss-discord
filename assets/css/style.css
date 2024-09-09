@@ -4,7 +4,6 @@
     Padding: 0;
     Box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: small;
     }
     
     Img{
@@ -17,6 +16,7 @@
 /*     background-color: aqua; */
     padding: 1rem;
     background-color: #3161e0;
+    font-size: small; 
 }
 .h_fl_logo{
     display: flex;
@@ -105,13 +105,27 @@ header .a{
    /*  border: 1px dashed black; /* DEBUG-FEATURE!!! */ 
     height: 20rem;
     border-radius: .5rem;
-    
+    text-align: center;
+    color: white;
  }
 
+.open_button{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    vertical-align: center;
+    border-radius: 10rem;
+    border:none;
+    height: 30px;
+    padding:0 1rem 0 1rem;
+
+}
+.black{
+    background-color: #23272a;
+    color: white;
+}
 
 
-
- 
 /*#endregion-1ST CARD */
 
     /*#region-2ND CARD */
