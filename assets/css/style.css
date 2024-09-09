@@ -14,10 +14,24 @@
 .header{
     background-color: aqua;
     padding: 1rem;
+    
+}
+.h_fl_logo{
+    vertical-align: middle;
+
+
+}
+header .a{
+    vertical-align: middle;
+    
 }
 
-.h_fl_link> a{
+.h_fl_container a{
     padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
 }
 
 .h_fl_container> *{
