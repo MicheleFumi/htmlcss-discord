@@ -1,0 +1,301 @@
+/*#region-COMMON */
+*{
+    Margin:0;
+    Padding: 0;
+    Box-sizing: border-box;
+    }
+    
+    Img{
+    Max-width: 100%
+}
+/*#endregion-COMMON */
+
+/*#region-HEADER */
+.header{
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.h_fl_link> a{
+    padding-left: 1rem;
+}
+
+.h_fl_container> *{
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    padding: 0.20rem;
+}
+
+/* FLEX_HEADER */
+.h_fl_container{
+    display: flex;
+    margin: auto;
+    background-color: #ffd500;
+    width: 70%;
+}
+
+.h_fl_logo{
+    width: 25%;
+}
+
+.h_fl_link{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    
+    }
+
+.h_fl_login{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+ }
+/*#endregion-HEADER */
+
+ /*#region-MAIN*/
+
+     /*#region-1ST CARD */
+
+
+ .sect_1{
+    background-color: blue;
+    display: flex;
+    padding: 2rem;
+}  
+    
+ .fl_1_sq{
+
+    align-self: center;
+    background-color: fuchsia;
+    width: 50%;
+    margin: auto;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    height: 20rem;
+    border-radius: .5rem;
+    
+ }
+/*#endregion-1ST CARD */
+
+    /*#region-2ND CARD */
+
+ .sect_2{
+  
+    padding: 2rem;
+    flex-direction: column;
+    margin: auto;
+ }
+
+ .fl_2_sq{
+
+    width: 70%;
+    margin: auto;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    height: 20rem;
+   display: flex;
+    
+    
+ }
+ .main2{
+    width: 60%;
+    background-color: lightblue;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+
+ }
+ .aside2{
+    width: 40%;
+    background-color: lightsalmon;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+ }
+/*#endregion-2ND CARD */
+
+    /*#region-3RD CARD */
+
+ .sect_3{
+   
+     padding: 2rem;
+     flex-direction: column;
+     background-color: lightgrey;
+  }
+ 
+  .fl_3_sq{
+ 
+     width: 70%;
+     margin: auto;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     height: 20rem;
+     display: flex;
+     
+  }
+  .main3{
+     width: 40%;
+     background-color: lightblue;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+ 
+  }
+  .aside3{
+     width: 60%;
+     background-color: lightsalmon;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  }
+/*#endregion-3RD CARD */
+
+    /*#region-4TH CARD */
+
+ .sect_4{
+   
+     padding: 2rem;
+     flex-direction: column;
+     
+  }
+ 
+  .fl_4_sq{
+ 
+     width: 70%;
+     margin: auto;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     height: 20rem;
+
+     display: flex;
+     
+  }
+  .main4{
+     width: 60%;
+     background-color: lightblue;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+ 
+  }
+  .aside4{
+     width: 40%;
+     background-color: lightsalmon;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  }
+/*#endregion-4TH CARD */
+
+    /*#region-5TH CARD */
+
+
+ .sect_5{
+    background-color: lightgrey;
+    display: flex;
+    padding: 2rem;
+}  
+    
+ .fl_5_sq{
+
+    align-self: center;
+    background-color:green;
+    width: 70%;
+    margin: auto;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    height: 40rem;
+ 
+ }
+/*#endregion-5TH CARD */
+
+ /*#endregion-MAIN*/
+
+/*#region-FOOTER */
+
+    /*#region-FOOTER-UTILITY */
+.button{
+    background-color: pink;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     
+
+}
+hr{
+    color: white;
+}
+.margin{
+    margin-bottom: 1rem;
+    
+}
+
+.footer{
+
+    padding: 0.25rem 2rem 0rem 2rem;
+    margin: auto;
+    background-color: hsl(0, 2%, 11%);
+}
+ /*#endregion-FOOTER-UTILITY */
+
+    /*#region-1STCARD  */
+  .foot_sect_1{
+ 
+     width: 70%;
+     margin: auto;
+     height: 25rem;
+     padding-bottom: 2rem;
+     
+    
+
+     
+  }
+
+  .foot_fl_sq{
+    display: flex;
+    height: 100%;
+    margin-top: 0.25rem;
+
+
+  }
+
+    ._1st_box{
+     width: 40%;
+     background-color:lightsalmon;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     
+    }
+  
+  ._2nd_box{
+     width: 15%;
+     background-color: aquamarine;
+     border: 1px dashed white; /* DEBUG-FEATURE!!! */
+  }
+  ._3rd_box{
+    width: 15%;
+    background-color: aquamarine;
+    border: 1px dashed white; /* DEBUG-FEATURE!!! */
+  }
+
+  ._4th_box{
+    width: 15%;
+    background-color: aquamarine;
+    border: 1px dashed white; /* DEBUG-FEATURE!!! */
+  }
+  ._5th_box{
+    width: 15%;
+    background-color: aquamarine;
+    border: 1px dashed white; /* DEBUG-FEATURE!!! */
+  }
+
+/*#endregion-1ST CARD */
+
+    /*#region-2NDCARD */
+.foot_fl_container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 70%;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+.foot_fl_logo{
+    justify-content: center;
+    width: 3rem;
+    background-color: pink;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    display: flex;
+}
+
+.foot_fl_button{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+
+ }
+
+/*#endregion-2NDCARD */
+
+/*#endregion-FOOTER */
