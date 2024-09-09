@@ -308,8 +308,21 @@ font-size: 1.5rem
     font-size: small;
     text-align: center;
 }
+.img_big{
+    size: 3rem;
+    width: 100%;
+    justify-content: center;
+}
 
+.star{
+    justify-content: center;
+    margin-bottom: 0;
+}
 
+.adventure{
+
+    justify-content: center;
+}
 /*#endregion-5TH CARD */
 
  /*#endregion-MAIN*/
