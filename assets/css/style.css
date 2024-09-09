@@ -290,7 +290,7 @@ font-size: 1.5rem
     
  .fl_5_sq{
 
-    align-self: center;
+    /* align-self: center; */
     /* background-color:green; */
     width: 70%;
     margin: auto;
@@ -299,6 +299,14 @@ font-size: 1.5rem
  }
 .main_title{
     justify-content: center;
+    font-size: xx-large;
+}
+.technology_text{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    font-size: small;
+    text-align: center;
 }
 
 
