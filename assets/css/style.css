@@ -7,7 +7,8 @@
     }
     
     Img{
-    Max-width: 100%
+    Max-width: 100%;
+    Max-height: 100%;
 }
 /*#endregion-COMMON */
 
@@ -168,21 +169,22 @@ font-size: 1.5rem
     
  }
  .main2{
-    width: 60%;
+    width: 70%;
 /*     background-color: lightblue; */
 /*    border: 1px dashed black;  */
+
  }
 
 
  .aside2{
-    width: 20%;
-    justify-content: flex-end;
+    width: 30%;
     .card2_text{
         font-size: small;
         margin-top: 1rem;
     }
     h1{
         font-size: xx-large;
+        padding-top: 1.5rem;
     }
     /* background-color: lightsalmon; */
    /*  border: 1px dashed black;  */   /* DEBUG-FEATURE!!! */
@@ -203,21 +205,32 @@ font-size: 1.5rem
  
      width: 70%;
      margin: auto;
-     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     /* border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
      height: 20rem;
      display: flex;
      
   }
   .main3{
-     width: 40%;
-     background-color: lightblue;
-     border: 1px dashed black; /* DEBUG-FEATURE!!! */
- 
+     width: 30%;
+    /*  background-color: lightblue; */
+    /*  border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
+    justify-content: flex-start;
+    .card3_text{
+        font-size: small;
+        margin-top: 1rem;
+    }
+    h1{
+        font-size: xx-large;
+        padding-top: 1.5rem;
+    }
   }
   .aside3{
-     width: 60%;
-     background-color: lightsalmon;
-     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     width: 70%;
+     display: flex;
+     justify-content: end;
+     
+     /* background-color: lightsalmon; */
+     /* border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
   }
 /*#endregion-3RD CARD */
 
