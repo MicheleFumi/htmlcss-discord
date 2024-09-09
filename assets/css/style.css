@@ -12,9 +12,9 @@
 
 /*#region-HEADER */
 .header{
-    background-color: aqua;
+/*     background-color: aqua; */
     padding: 1rem;
-    
+    background-color: #3161e0;
 }
 .h_fl_logo{
     vertical-align: middle;
@@ -35,7 +35,7 @@ header .a{
 }
 
 .h_fl_container> *{
-    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+/*     border: 1px dashed black; / * /* DEBUG-FEATURE!!! */
     padding: 0.20rem;
 }
 
@@ -43,7 +43,7 @@ header .a{
 .h_fl_container{
     display: flex;
     margin: auto;
-    background-color: #ffd500;
+/*     background-color: #ffd500; */
     width: 70%;
 }
 
@@ -71,9 +71,12 @@ header .a{
 
 
  .sect_1{
-    background-color: blue;
+   /*  background-color: blue */
+   background-image: url("../img/jumbo.png");
     display: flex;
     padding: 2rem;
+    background-size: 100%;
+    
 }  
     
  .fl_1_sq{
