@@ -109,6 +109,22 @@ header .a{
     color: white;
  }
 
+.card_1_title{
+padding-top: 4rem;
+font-size: 1.5rem
+}
+.card_1_text{
+    padding-top: 4rem;
+    font-size: small;
+}
+.card_1_buttons{
+    padding-top: 1rem;
+}
+
+
+
+
+
 .open_button{
     background-color: white;
     color: black;
@@ -118,12 +134,16 @@ header .a{
     border:none;
     height: 30px;
     padding:0 1rem 0 1rem;
+    margin-left: 1rem;
 
 }
 .black{
     background-color: #23272a;
     color: white;
 }
+
+
+
 
 
 /*#endregion-1ST CARD */
@@ -141,7 +161,7 @@ header .a{
 
     width: 70%;
     margin: auto;
-    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+   /*  border: 1px dashed black;*/
     height: 20rem;
    display: flex;
     
@@ -149,15 +169,25 @@ header .a{
  }
  .main2{
     width: 60%;
-    background-color: lightblue;
-    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+/*     background-color: lightblue; */
+/*    border: 1px dashed black;  */
+ }
 
- }
+
  .aside2{
-    width: 40%;
-    background-color: lightsalmon;
-    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    width: 20%;
+    justify-content: flex-end;
+    .card2_text{
+        font-size: small;
+        margin-top: 1rem;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    /* background-color: lightsalmon; */
+   /*  border: 1px dashed black;  */   /* DEBUG-FEATURE!!! */
  }
+
 /*#endregion-2ND CARD */
 
     /*#region-3RD CARD */
@@ -277,11 +307,7 @@ hr{
      width: 70%;
      margin: auto;
      height: 25rem;
-     padding-bottom: 2rem;
-     
-    
-
-     
+     padding-bottom: 2rem;     
   }
 
   .foot_fl_sq{
