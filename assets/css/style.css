@@ -347,7 +347,7 @@ font-size: 1.5rem
 
     /*#region-FOOTER-UTILITY */
 .button{
-   /*  background-color: pink */;
+   /*  background-color: pink */
     border: 1px dashed black; /* DEBUG-FEATURE!!! */
      
 
@@ -388,7 +388,7 @@ hr{
     color: #7289da;
   }
 
-  .color_White{
+  .color_white{
         color: white;
   }
 
@@ -396,8 +396,31 @@ hr{
      width: 40%;
   /*    background-color:lightsalmon; */
 /*      border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
-     
+     .flag{
+        width: 20px;
+        vertical-align: middle;
+     }
+
+     .centred{
+        vertical-align: middle;
+     }
+     .inline{
+        display: inline-block;
+     }
+
+     .logo_layout{
+        justify-content: start;
+        padding-top: 2rem;
+        
+     }
+
     }
+
+
+
+
+
+
   
   ._2nd_box{
      width: 15%;
