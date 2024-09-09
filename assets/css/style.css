@@ -100,14 +100,18 @@ header .a{
  .fl_1_sq{
 
     align-self: center;
-    background-color: fuchsia;
     width: 50%;
     margin: auto;
-    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+   /*  border: 1px dashed black; /* DEBUG-FEATURE!!! */ 
     height: 20rem;
     border-radius: .5rem;
     
  }
+
+
+
+
+ 
 /*#endregion-1ST CARD */
 
     /*#region-2ND CARD */
