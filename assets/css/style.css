@@ -347,7 +347,7 @@ font-size: 1.5rem
 
     /*#region-FOOTER-UTILITY */
 .button{
-    background-color: pink;
+   /*  background-color: pink */;
     border: 1px dashed black; /* DEBUG-FEATURE!!! */
      
 
@@ -362,9 +362,9 @@ hr{
 
 .footer{
 
-    padding: 0.25rem 2rem 0rem 2rem;
+    padding: 3rem 2rem 0rem 2rem;
     margin: auto;
-    background-color: hsl(0, 2%, 11%);
+    background-color: #23272a;
 }
  /*#endregion-FOOTER-UTILITY */
 
@@ -384,11 +384,18 @@ hr{
 
 
   }
+  .color_violet{
+    color: #7289da;
+  }
+
+  .color_White{
+        color: white;
+  }
 
     ._1st_box{
      width: 40%;
-     background-color:lightsalmon;
-     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  /*    background-color:lightsalmon; */
+/*      border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
      
     }
   
