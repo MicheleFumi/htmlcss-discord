@@ -397,8 +397,12 @@ hr{
   /*    background-color:lightsalmon; */
 /*      border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
      .flag{
-        width: 20px;
+        width: 2rem;
         vertical-align: middle;
+        padding-right: 1rem;
+        padding-top: 1rem;
+     }
+     
      }
 
      .centred{
@@ -413,7 +417,10 @@ hr{
         padding-top: 2rem;
         
      }
-
+     .lang{
+        width: 20px;
+        vertical-align: middle;
+     }
     }
 
 
