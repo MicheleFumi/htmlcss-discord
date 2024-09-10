@@ -385,6 +385,7 @@ hr{
 
 .small_text{
     font-size: smaller;
+    padding-top: 0.5rem;
 }
 
 
@@ -438,12 +439,11 @@ hr{
      
     
   }
-  .white_text{
-
-    font-size: small;
-   
+  
+  .title_footer{
+    justify-content: flex-start;
+    padding-top: 0.5rem;
   }
-
 
 
   ._3rd_box{
