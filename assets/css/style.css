@@ -448,19 +448,25 @@ hr{
 
   ._3rd_box{
     width: 15%;
-    background-color: aquamarine;
-    border: 1px dashed white; /* DEBUG-FEATURE!!! */
+    display: flex;
+     flex-direction: column;
+    /* background-color: aquamarine; */
+    /* border: 1px dashed white; */ /* DEBUG-FEATURE!!! */
   }
 
   ._4th_box{
     width: 15%;
-    background-color: aquamarine;
-    border: 1px dashed white; /* DEBUG-FEATURE!!! */
+    display: flex;
+     flex-direction: column;
+    /* background-color: aquamarine;
+    border: 1px dashed white;  *//* DEBUG-FEATURE!!! */
   }
   ._5th_box{
     width: 15%;
-    background-color: aquamarine;
-    border: 1px dashed white; /* DEBUG-FEATURE!!! */
+    display: flex;
+     flex-direction: column;
+   /*  background-color: aquamarine;
+    border: 1px dashed white; */
   }
 
 /*#endregion-1ST CARD */
