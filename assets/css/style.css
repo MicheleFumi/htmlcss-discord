@@ -264,17 +264,17 @@ font-size: 1.5rem
   .aside4{
      width: 30%;
     
-     .card4_text{
-         font-size: small;
-         margin-top: 1rem;
-     }
+    
      h1{
          font-size: xx-large;
          padding-top: 1.5rem;
      }
-     /* background-color: lightsalmon; */
-     /* border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
-  }
+     }
+
+  .card4_text{
+    font-size: small;
+    margin-top: 1rem;
+}
 /*#endregion-4TH CARD */
 
     /*#region-5TH CARD */
@@ -309,7 +309,7 @@ font-size: 1.5rem
     text-align: center;
 }
 .img_big{
-    size: 3rem;
+    size: 3rem ;
     width: 100%;
     justify-content: center;
 }
@@ -381,9 +381,13 @@ hr{
     display: flex;
     height: 100%;
     margin-top: 0.25rem;
+}
+
+.small_text{
+    font-size: smaller;
+}
 
 
-  }
   .color_violet{
     color: #7289da;
   }
@@ -394,8 +398,13 @@ hr{
 
     ._1st_box{
      width: 40%;
-  /*    background-color:lightsalmon; */
-/*      border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
+        /*    background-color:lightsalmon; */
+         /*      border: 1px dashed black; */ /* DEBUG-FEATURE!!! */
+
+    }
+
+
+
      .flag{
         width: 2rem;
         vertical-align: middle;
@@ -403,7 +412,7 @@ hr{
         padding-top: 1rem;
      }
      
-     }
+     
 
      .centred{
         vertical-align: middle;
@@ -421,19 +430,22 @@ hr{
         width: 20px;
         vertical-align: middle;
      }
-    }
-
-
-
-
-
-
-  
-  ._2nd_box{
+    
+ ._2nd_box{
      width: 15%;
-     background-color: aquamarine;
-     border: 1px dashed white; /* DEBUG-FEATURE!!! */
+     display: flex;
+     flex-direction: column;
+     
+    
   }
+  .white_text{
+
+    font-size: small;
+   
+  }
+
+
+
   ._3rd_box{
     width: 15%;
     background-color: aquamarine;
